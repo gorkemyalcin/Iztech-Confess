@@ -1,0 +1,19 @@
+
+body {
+    background-color: lightblue;
+}
+.main{
+    padding-right: 25em;
+    padding-left: 25em;
+}
+
+.hiddenText {
+    float: right;
+}
+.hiddenText:hover ~ .hiddenImage{
+    display: block;
+    float: right;
+}
+.hiddenImage{
+    display:none;
+}
